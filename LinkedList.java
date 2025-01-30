@@ -1,3 +1,10 @@
+
+
+
+
+/**
+ * Represents a list of Nodes. 
+ */
 public class LinkedList {
 	
 	private Node first; // pointer to the first element of this list
@@ -218,11 +225,16 @@ public class LinkedList {
 		remove(index);
 	}	
 
-	
+	/**
+	 * Returns an iterator over this list, starting with the first element.
+	 */
 	public ListIterator iterator(){
 		return new ListIterator(first);
 	}
-
+	
+	/**
+	 * A textual representation of this list, for debugging.
+	 */
 	public String toString() {
 		if (size == 0) {
             return "";
