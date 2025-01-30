@@ -1,6 +1,3 @@
-/**
- * Represents a node in a linked list. Each node points to a MemoryBlock object. 
- */
 public class Node {
 
 	MemoryBlock block;  // The memory block that this node points at
